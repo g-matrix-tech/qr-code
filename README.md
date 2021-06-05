@@ -1,6 +1,6 @@
 ## About
 
-This library helps you ro render Qr-code from image, pdf.
+This library helps you to scan Qr-code from image, pdf.
 
 Here we use scan system (written by python) from Dynamsoft (for more go through the link https://www.dynamsoft.com/)
 
