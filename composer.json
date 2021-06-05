@@ -1,0 +1,28 @@
+{
+    "name": "g-matrix-tech/qr-code",
+    "description": "Render QR-code from image, pdf",
+    "type": "library",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "git@github.com:g-matrix-tech/exception.git"
+      }
+    ],
+    "authors": [
+        {
+            "name": "Gegham Kocharyan",
+            "email": "g.matrix.tech@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ext-json": "*",
+        "g-matrix-tech/exception": "^1.0.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "GMatrixTech\\QrCode\\": "src/",
+        "Tests\\": "tests/"
+      }
+    }
+}
